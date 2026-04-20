@@ -281,7 +281,7 @@
                 <article class="project-card soft-card">
                     <div class="browser-header">
                         <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://sousse-appartments.vercel.app</div>
+                        <div class="url-bar">https://apartment-sousse.com/</div>
                     </div>
                     <div class="project-content">
                         <div class="tech-stack">
