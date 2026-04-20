@@ -526,7 +526,12 @@
                 </div>
             </div>
 
-            <form id="contact-form" class="contact-form" action="api/contact.php" method="POST">
+            <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms: replace YOUR_ACCESS_KEY with the key from https://web3forms.com -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+                <input type="hidden" name="subject" value="New Portfolio Contact Message">
+                <input type="hidden" name="from_name" value="Skandar Mokni Portfolio">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required placeholder="Enter your name">
