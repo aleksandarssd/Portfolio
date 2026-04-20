@@ -1,0 +1,39 @@
+# ============================================================
+# Portfolio — .gitignore
+# ============================================================
+
+# Large deployment archives (do not commit to repo)
+*.zip
+*.rar
+*.tar.gz
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor & IDE directories
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Node (if ever used for tooling)
+node_modules/
+npm-debug.log*
+
+# PHP environment / config overrides
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Task & planning files (internal use)
+task.md
+implementation_plan.md
