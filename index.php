@@ -20,7 +20,8 @@
             </p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="Skandar_mokni_cv_sr.pdf" class="btn btn-outline" target="_blank">Download CV</a>
+                <a href="Skandar-mokni-CV_en.pdf" class="btn btn-outline" target="_blank">CV (EN)</a>
+                <a href="Skandar_mokni_cv_sr.pdf" class="btn btn-outline" target="_blank">CV (SR)</a>
             </div>
         </div>
         <div class="hero-visual">
@@ -223,6 +224,26 @@
                         <h4>Brake Disc Design & Analysis</h4>
                         <p>Design, modeling, and finite-element stress analysis of an automotive ventilated brake disc. Includes CAD modeling and mechanical load calculations.</p>
                         <a href="project-details.php?id=mech-006" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 7: Chesterfield Armchair -->
+                <article class="project-card mech-card">
+                    <div class="card-header">
+                        <span>ID: MECH-007</span>
+                        <span class="project-status">COMPLETED</span>
+                    </div>
+                    <div class="project-image mech-img-1">
+                        <div class="placeholder-img" style="background-image: url('data/images/Fotelja Chesterterfield/blueprint.png'); background-size: cover;"></div>
+                        <div class="overlay-info">
+                            <span class="tool">3D CAD</span>
+                            <span class="tool">Technical Drafting</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Chesterfield Armchair Design</h4>
+                        <p>Complete structural and mechanical design of a Chesterfield armchair, including precise manufacturing documentation and 3D modeling.</p>
+                        <a href="project-details.php?id=mech-007" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
             </div>
@@ -522,7 +543,8 @@
                 <div class="social-connect">
                     <a href="https://www.linkedin.com/in/skandar-mokni-3b02b3178/" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/aleksandarssd" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fab fa-github"></i></a>
-                    <a href="Skandar_mokni_cv_sr.pdf" class="btn btn-outline btn-sm" target="_blank" style="margin-left: 10px; border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 4px; text-decoration: none; color: var(--text-primary);">Download CV <i class="fas fa-download"></i></a>
+                    <a href="Skandar-mokni-CV_en.pdf" class="btn btn-outline btn-sm" target="_blank" style="margin-left: 10px; border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 4px; text-decoration: none; color: var(--text-primary);">CV (EN) <i class="fas fa-download"></i></a>
+                    <a href="Skandar_mokni_cv_sr.pdf" class="btn btn-outline btn-sm" target="_blank" style="margin-left: 5px; border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 4px; text-decoration: none; color: var(--text-primary);">CV (SR) <i class="fas fa-download"></i></a>
                 </div>
             </div>
 

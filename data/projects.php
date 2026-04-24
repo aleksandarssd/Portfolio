@@ -324,6 +324,74 @@ $projects = [
         ],
         'model_3d' => 'data/models/disk_brake.glb'
     ],
+    'mech-007' => [
+        'title' => 'Chesterfield Armchair Design',
+        'category' => 'Furniture Design',
+        'status' => 'Completed',
+        'image' => 'data/images/Fotelja Chesterterfield/blueprint.png',
+        'description' => 'A complete structural and mechanical design project of a Chesterfield armchair, demonstrating professional furniture design skills and precise manufacturing documentation generation.',
+        'specs' => [
+            'Project Type' => 'Furniture Design',
+            'Model' => 'Chesterfield Armchair',
+            'Documentation' => 'Technical drawings, 3D modeling and structural rendering'
+        ],
+        'tasks' => [
+            '<strong>3D Modeling:</strong> Designed the complete furniture structural framework and dimensions.',
+            '<strong>Technical Drawings:</strong> Generated detailed manufacturing documentation including base, seats, backrest, and side geometries.',
+            '<strong>Upholstery Drafting:</strong> Created targeted drafting for the upholstery phases.',
+            '<strong>Rendering:</strong> Produced visual presentation documents of the final structure.'
+        ],
+        'tools' => ['3D CAD', 'AutoCAD', 'Technical Drafting', 'Furniture Design Standards'],
+        'gallery' => [],
+        'documents' => [
+            [
+                'title' => 'Main Structure Details',
+                'file' => 'data/files/Fotelja Chesterterfield/gabrit_chetsterfield_struktura_final.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'Structure Overview',
+                'file' => 'data/files/Fotelja Chesterterfield/gabrit_chetsterfield_struktura_final1.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'Armchair Rendering',
+                'file' => 'data/files/Fotelja Chesterterfield/gabrit_chetsterfield_Render_final (3).pdf',
+                'type' => 'report'
+            ],
+            [
+                'title' => 'Upholstery Dimensioning',
+                'file' => 'data/files/Fotelja Chesterterfield/tapetarski_fotelj.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'Armchair Base Drawing',
+                'file' => 'data/files/Fotelja Chesterterfield/Fotelja_chesterfield_90_117+Drawing.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'Small Sofa Drawing',
+                'file' => 'data/files/Fotelja Chesterterfield/bocna_mala_sofa_87_Drawing.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'Seat Drafting',
+                'file' => 'data/files/Fotelja Chesterterfield/sedista_mala_draw.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'Backrest Drawing',
+                'file' => 'data/files/Fotelja Chesterterfield/zadnja_deo_fotelja_117+Drawing.pdf',
+                'type' => 'drawing'
+            ],
+            [
+                'title' => 'AutoCAD Structure',
+                'file' => 'data/files/Fotelja Chesterterfield/fotelicaa.dwg',
+                'type' => 'drawing'
+            ]
+        ],
+        'model_3d' => 'data/models/Fotelja_chesterfield.glb'
+    ],
     // Software Projects
     'soft-001' => [
         'title' => 'FS Black Hornets Official Platform',

@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     /* --- Color Palette (Light Mode Default) --- */
     --bg-primary: #f8f9fa;
     --bg-secondary: #ffffff;
@@ -67,6 +67,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
