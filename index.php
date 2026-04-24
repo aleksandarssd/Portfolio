@@ -20,7 +20,7 @@
             </p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="Skandar-mokni-CV_en.pdf" class="btn btn-outline" target="_blank">CV (EN)</a>
+                <a href="Skandar-Mokni-CV_en.pdf" class="btn btn-outline" target="_blank">CV (EN)</a>
                 <a href="Skandar_mokni_cv_sr.pdf" class="btn btn-outline" target="_blank">CV (SR)</a>
             </div>
         </div>
@@ -543,7 +543,7 @@
                 <div class="social-connect">
                     <a href="https://www.linkedin.com/in/skandar-mokni-3b02b3178/" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/aleksandarssd" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fab fa-github"></i></a>
-                    <a href="Skandar-mokni-CV_en.pdf" class="btn btn-outline btn-sm" target="_blank" style="margin-left: 10px; border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 4px; text-decoration: none; color: var(--text-primary);">CV (EN) <i class="fas fa-download"></i></a>
+                    <a href="Skandar-Mokni-CV_en.pdf" class="btn btn-outline btn-sm" target="_blank" style="margin-left: 10px; border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 4px; text-decoration: none; color: var(--text-primary);">CV (EN) <i class="fas fa-download"></i></a>
                     <a href="Skandar_mokni_cv_sr.pdf" class="btn btn-outline btn-sm" target="_blank" style="margin-left: 5px; border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 4px; text-decoration: none; color: var(--text-primary);">CV (SR) <i class="fas fa-download"></i></a>
                 </div>
             </div>

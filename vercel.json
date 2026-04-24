@@ -3,8 +3,8 @@
     "api/**/*.php": { "runtime": "vercel-php@0.7.2" }
   },
   "routes": [
-    { "src": "/", "dest": "/api/index.php" },
-    { "src": "/project-details(.*)", "dest": "/api/project-details.php$1" },
+    { "src": "/(?:index\\.php)?", "dest": "/api/index.php" },
+    { "src": "/project-details(?:\\.php)?", "dest": "/api/project-details.php" },
     { "src": "/api/contact", "dest": "/api/contact.php" },
     { "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|webp|pdf|glb|ico|woff|woff2|ttf))", "dest": "/$1" }
   ]
