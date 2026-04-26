@@ -1,5 +1,42 @@
 <?php
 $projects = [
+    'auto-001' => [
+        'title' => 'R&D: Autonomous Charging Infrastructure for P-Guard Robotics',
+        'category' => 'Research & Development',
+        'status' => 'Completed',
+        'image' => 'data/files/Enova Docking Station/enova_blueprint.png',
+        'role' => 'R&D Mechanical Engineer',
+        'subheadline' => 'Investigating and engineering high-reliability contact-based docking systems for 24/7 surveillance assets.',
+        'description' => 'This is not a standard manufacturing project; it is a Research & Development (R&D) initiative focused on solving the autonomous charging problem for the P-Guard robot. The project required a highly scientific approach, feasibility studies, and iterative prototyping to ensure reliable operation in outdoor environments.',
+        'is_rd' => true,
+        'methodologies' => [
+            '<strong>Comparative Technology Analysis:</strong> Conducted an exhaustive study comparing Inductive (Wireless) vs. Conductive (Contact) charging. Justified the selection of Contact-based charging based on energy efficiency (low loss), thermal management in outdoor environments, and cost-to-reliability ratios.',
+            '<strong>Functional Decomposition:</strong> Utilized SADT and Pieuvre Diagrams to map the complex interactions between the environment (outdoor weather), the robot (docking precision), and the power grid.',
+            '<strong>Problem Statement:</strong> The core challenge was achieving a sub-centimeter mechanical connection for a 100kg+ autonomous vehicle in varying outdoor terrains.'
+        ],
+        'innovations' => [
+            '<strong>Iterative Prototyping:</strong> Developed multiple docking head geometries to account for angular and lateral robot misalignment.',
+            '<strong>Kinematic Simulation:</strong> Verified docking paths to eliminate potential collision points or mechanical interference during the approach phase.',
+            '<strong>Material Science:</strong> Selected high-durability, weather-resistant materials for the external shell while optimizing the internal chassis using 30x30 aluminum profiles for modularity and rapid assembly.'
+        ],
+        'lessons_learned' => 'Future iterations will explore active thermal cooling for ultra-fast charging cycles, and AI-assisted alignment correction prior to physical contact.',
+        'specs' => [
+            'Project ID' => 'R&D-MECH-001',
+            'Charging Interface' => 'High-current spring-loaded contact pins',
+            'Environmental Tolerance' => 'Designed to IP54 standards for dust and moisture protection',
+            'Alignment Tolerance' => 'Compensates for ±20mm lateral and ±5° angular robot deviation',
+            'Primary Tools' => 'SolidWorks (CAD/FEA), Microsoft Excel (Analytical Modeling), Industrial Automation (LOGO! PLC)'
+        ],
+        'tools' => ['SolidWorks', 'Microsoft Excel', 'LOGO! PLC', 'Kinematic Simulation'],
+        'gallery' => [],
+        'documents' => [
+            [
+                'title' => 'ENOVA Docking Station Project Report',
+                'file' => 'data/files/Enova Docking Station/sation_de_recharge.pdf',
+                'type' => 'report'
+            ]
+        ]
+    ],
     'mech-001' => [
         'title' => 'Industrial Jib Crane Design (0.25 Ton)',
         'category' => 'Mechanical Engineering',

@@ -11,12 +11,12 @@
                 <span class="surname-highlight">MOKNI</span>
             </h1>
             <div class="hero-badges">
-                <span class="badge badge-mech"><i class="fas fa-cogs"></i> Mechanical Engineer</span>
-                <span class="badge badge-soft"><i class="fas fa-code"></i> Software Engineer</span>
+                <span class="badge badge-mech"><i class="fas fa-microchip"></i> Digital Systems</span>
+                <span class="badge badge-soft"><i class="fas fa-cogs"></i> Mechanical Design Engineer</span>
             </div>
             <p class="hero-subtitle">
-                Bridging the gap between heavy machinery and digital infrastructure. 
-                Designing robust physical systems and scalable cloud solutions.
+                Optimizing physical systems through digital logic. 
+                Bridging the gap between heavy machinery and digital infrastructure through computational design and engineering automation.
             </p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -25,10 +25,68 @@
             </div>
         </div>
         <div class="hero-visual">
-            <div class="blueprint-container">
-                <div class="blueprint-grid"></div>
-                <div class="blueprint-shape shape-1"></div>
-                <div class="blueprint-shape shape-2"></div>
+            <div class="nexus-container">
+                <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="nexus-svg">
+                    <!-- Outer precision ring -->
+                    <circle cx="200" cy="200" r="180" fill="none" stroke="rgba(245,158,11,0.35)" stroke-width="1.5" class="ring-outer"/>
+                    
+                    <!-- Tick marks around the ring (precision gauge) -->
+                    <g class="tick-marks">
+                        <line x1="200" y1="22" x2="200" y2="35" stroke="rgba(245,158,11,0.7)" stroke-width="2"/>
+                        <line x1="290" y1="38" x2="285" y2="47" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="355" y1="110" x2="346" y2="115" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="378" y1="200" x2="365" y2="200" stroke="rgba(245,158,11,0.7)" stroke-width="2"/>
+                        <line x1="355" y1="290" x2="346" y2="285" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="290" y1="362" x2="285" y2="353" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="200" y1="378" x2="200" y2="365" stroke="rgba(245,158,11,0.7)" stroke-width="2"/>
+                        <line x1="110" y1="362" x2="115" y2="353" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="45" y1="290" x2="54" y2="285" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="22" y1="200" x2="35" y2="200" stroke="rgba(245,158,11,0.7)" stroke-width="2"/>
+                        <line x1="45" y1="110" x2="54" y2="115" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                        <line x1="110" y1="38" x2="115" y2="47" stroke="rgba(245,158,11,0.5)" stroke-width="1.5"/>
+                    </g>
+
+                    <!-- Rotating mechanical ring with gear teeth -->
+                    <g class="mech-ring">
+                        <circle cx="200" cy="200" r="140" fill="none" stroke="rgba(245,158,11,0.45)" stroke-width="2" stroke-dasharray="8 4"/>
+                        <!-- Gear tooth shapes -->
+                        <rect x="196" y="56" width="8" height="12" rx="1" fill="rgba(245,158,11,0.6)"/>
+                        <rect x="196" y="332" width="8" height="12" rx="1" fill="rgba(245,158,11,0.6)"/>
+                        <rect x="56" y="196" width="12" height="8" rx="1" fill="rgba(245,158,11,0.6)"/>
+                        <rect x="332" y="196" width="12" height="8" rx="1" fill="rgba(245,158,11,0.6)"/>
+                        <rect x="296" y="86" width="8" height="12" rx="1" fill="rgba(245,158,11,0.5)" transform="rotate(30 300 92)"/>
+                        <rect x="96" y="302" width="8" height="12" rx="1" fill="rgba(245,158,11,0.5)" transform="rotate(30 100 308)"/>
+                        <rect x="302" y="296" width="12" height="8" rx="1" fill="rgba(245,158,11,0.5)" transform="rotate(60 308 300)"/>
+                        <rect x="86" y="96" width="12" height="8" rx="1" fill="rgba(245,158,11,0.5)" transform="rotate(60 92 100)"/>
+                    </g>
+
+                    <!-- Digital circuit traces (blue paths) -->
+                    <g class="circuit-traces">
+                        <path d="M200 80 L200 130 L240 170" fill="none" stroke="rgba(59,130,246,0.5)" stroke-width="1.5"/>
+                        <path d="M320 200 L270 200 L230 240" fill="none" stroke="rgba(59,130,246,0.5)" stroke-width="1.5"/>
+                        <path d="M200 320 L200 270 L160 230" fill="none" stroke="rgba(59,130,246,0.5)" stroke-width="1.5"/>
+                        <path d="M80 200 L130 200 L170 160" fill="none" stroke="rgba(59,130,246,0.5)" stroke-width="1.5"/>
+                    </g>
+
+                    <!-- Inner hexagon (precision core) -->
+                    <polygon points="200,145 248,172 248,228 200,255 152,228 152,172" 
+                             fill="none" stroke="rgba(245,158,11,0.4)" stroke-width="2" class="hex-core"/>
+
+                    <!-- Center crosshair -->
+                    <line x1="188" y1="200" x2="212" y2="200" stroke="rgba(245,158,11,0.7)" stroke-width="1.5"/>
+                    <line x1="200" y1="188" x2="200" y2="212" stroke="rgba(245,158,11,0.7)" stroke-width="1.5"/>
+                    <circle cx="200" cy="200" r="5" fill="none" stroke="rgba(245,158,11,0.6)" stroke-width="1.5" class="center-dot"/>
+
+                    <!-- Circuit junction nodes -->
+                    <circle cx="200" cy="130" r="4" fill="rgba(59,130,246,0.3)" stroke="rgba(59,130,246,0.8)" stroke-width="1.5" class="junction-node"/>
+                    <circle cx="270" cy="200" r="4" fill="rgba(59,130,246,0.3)" stroke="rgba(59,130,246,0.8)" stroke-width="1.5" class="junction-node"/>
+                    <circle cx="200" cy="270" r="4" fill="rgba(59,130,246,0.3)" stroke="rgba(59,130,246,0.8)" stroke-width="1.5" class="junction-node"/>
+                    <circle cx="130" cy="200" r="4" fill="rgba(59,130,246,0.3)" stroke="rgba(59,130,246,0.8)" stroke-width="1.5" class="junction-node"/>
+                </svg>
+
+                <!-- Floating labels -->
+                <span class="nexus-label label-mech">MECH</span>
+                <span class="nexus-label label-digi">DIGI</span>
             </div>
         </div>
     </div>
@@ -51,10 +109,10 @@
             <div class="about-bio">
                 <h3>Professional Biography</h3>
                 <p>
-                    I am a graduate <strong>Mechanical Engineer</strong> from the University of Novi Sad, specializing in Mechanization and Construction Machines. My academic foundation is built on physical constraints, materials, and heavy machinery design.
+                    I am a <strong>Digital Systems & Mechanical Design Engineer</strong>, bridging the gap between heavy machinery design and digital infrastructure. My foundation is built on physical constraints, materials, and heavy machinery design from the University of Novi Sad.
                 </p>
                 <p>
-                    Parallel to my engineering studies, I forged a path as a <strong>Software Engineer</strong>. Completely self-taught through rigorous study and hands-on application, I spent my university years freelancing—building full-scale web applications and cloud-based management systems for real-world companies. This dual journey allows me to bridge the gap between hardware and software with unique insight.
+                    By integrating <strong>Computational Design</strong> and <strong>Engineering Automation</strong>, I build systems that optimize physical processes through digital logic. Whether it's designing complex mechanical assemblies or developing full-scale web applications, I deliver precision-engineered solutions across the entire hardware-software spectrum.
                 </p>
             </div>
             
@@ -100,37 +158,44 @@
             <p class="section-subtitle">A showcase of mechanical precision and digital logic.</p>
         </div>
 
-        <!-- Mechanical Projects -->
+        <!-- Category 1: Automated Machinery & Robotics -->
         <div class="project-category">
             <div class="category-header">
-                <i class="fas fa-cogs text-mech"></i>
-                <h3>Mechanical Engineering</h3>
+                <i class="fas fa-robot text-mech"></i>
+                <h3>Automated Machinery & Robotics</h3>
             </div>
             <div class="projects-grid">
-                <!-- Project 1: Crane Lift -->
+                <!-- Enova Docking Station -->
                 <article class="project-card mech-card">
                     <div class="card-header">
-                        <span>ID: MECH-001</span>
+                        <span>ID: AUTO-001</span>
                         <span class="project-status">COMPLETED</span>
                     </div>
                     <div class="project-image mech-img-1">
-                        <div class="placeholder-img" style="background-image: url('data/images/Crane Lift/blueprint.jpg'); background-size: cover;"></div>
+                        <div class="placeholder-img" style="background-image: url('data/files/Enova Docking Station/enova_blueprint.png'); background-size: cover;"></div>
                         <div class="overlay-info">
-                            <span class="tool">Autodesk Inventor</span>
-                            <span class="tool">EngiLab</span>
+                            <span class="tool">System Design</span>
+                            <span class="tool">Automation</span>
                         </div>
                     </div>
                     <div class="project-content">
-                        <h4>Jib Crane Structural Design</h4>
-                        <p>Complete structural design and calculation of a 0.25-ton jib crane. Includes analytical verification, 3D modeling, and safety factor analysis.</p>
-                        <a href="project-details.php?id=mech-001" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
+                        <h4>Enova Docking Station</h4>
+                        <p>Complete structural and automation design of the Enova Docking Station.</p>
+                        <div class="tech-specs">
+                            <ul>
+                                <li><strong>Software:</strong> SolidWorks</li>
+                                <li><strong>Materials/Std:</strong> Industrial Grade Steel</li>
+                                <li><strong>Achievement:</strong> Zero-tolerance docking precision</li>
+                            </ul>
+                        </div>
+                        <a href="project-details.php?id=auto-001" class="btn-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
-
-                <!-- Project 2: Gear Reducer -->
+                
+                <!-- Gear Reducer -->
                 <article class="project-card mech-card">
                     <div class="card-header">
-                        <span>ID: MECH-002</span>
+                        <span>ID: AUTO-003</span>
                         <span class="project-status">COMPLETED</span>
                     </div>
                     <div class="project-image mech-img-2">
@@ -143,54 +208,21 @@
                     <div class="project-content">
                         <h4>Two-Stage Gear Reducer</h4>
                         <p>Analytical and graphical design of a two-stage cylindrical gear reducer. Includes gear ratio optimization, motor selection, and 3D assembly.</p>
+                        <div class="tech-specs">
+                            <ul>
+                                <li><strong>Software:</strong> Autodesk Inventor</li>
+                                <li><strong>Materials/Std:</strong> Alloy Steel, ISO Standards</li>
+                                <li><strong>Achievement:</strong> Optimized torque transmission</li>
+                            </ul>
+                        </div>
                         <a href="project-details.php?id=mech-002" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
-
-                <!-- Project 3: IC Engine -->
+                
+                <!-- Parametric Gear Pump -->
                 <article class="project-card mech-card">
                     <div class="card-header">
-                        <span>ID: MECH-003</span>
-                        <span class="project-status">COMPLETED</span>
-                    </div>
-                    <div class="project-image mech-img-2">
-                         <div class="placeholder-img" style="background-image: url('data/images/IC Engine/engine_blueprint.jpg'); background-size: cover;"></div>
-                        <div class="overlay-info">
-                            <span class="tool">Autodesk Inventor</span>
-                            <span class="tool">3D Modeling</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h4>V6 Engine 3D Model</h4>
-                        <p>Detailed 3D CAD model of a V6 internal combustion engine. Features accurate assembly of cranktrain, pistons, and valve mechanism.</p>
-                        <a href="project-details.php?id=mech-003" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-
-                <!-- Project 4: Metal Structure -->
-                <article class="project-card mech-card">
-                    <div class="card-header">
-                        <span>ID: MECH-004</span>
-                        <span class="project-status">COMPLETED</span>
-                    </div>
-                    <div class="project-image mech-img-1">
-                        <div class="placeholder-img" style="background-image: url('data/images/Metal Construction/blueprint.jpg'); background-size: cover;"></div>
-                        <div class="overlay-info">
-                            <span class="tool">Structural Analysis</span>
-                            <span class="tool">Weld Design</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h4>Metal Structure Design</h4>
-                        <p>Structural analysis of a welded steel cantilever support. Verified cross-section resistance and welded joint integrity under load.</p>
-                        <a href="project-details.php?id=mech-004" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-
-                <!-- Project 5: Gear Pump -->
-                <article class="project-card mech-card">
-                    <div class="card-header">
-                        <span>ID: MECH-005</span>
+                        <span>ID: AUTO-004</span>
                         <span class="project-status">COMPLETED</span>
                     </div>
                     <div class="project-image mech-img-1">
@@ -203,34 +235,84 @@
                     <div class="project-content">
                         <h4>Parametric Gear Pump</h4>
                         <p>Parametric 3D CAD model of an external gear pump. Features Excel-driven design tables for instant variant generation.</p>
+                        <div class="tech-specs">
+                            <ul>
+                                <li><strong>Software:</strong> CATIA V5 + Excel</li>
+                                <li><strong>Materials/Std:</strong> Cast Iron, DFM</li>
+                                <li><strong>Achievement:</strong> Automated variant generation</li>
+                            </ul>
+                        </div>
                         <a href="project-details.php?id=mech-005" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
+            </div>
+        </div>
 
-                <!-- Project 6: Disc Brake -->
+        <!-- Category 2: Structural Engineering & DFM -->
+        <div class="project-category">
+            <div class="category-header">
+                <i class="fas fa-drafting-compass text-mech"></i>
+                <h3>Structural Engineering & DFM</h3>
+            </div>
+            <div class="projects-grid">
+                <!-- Jib Crane -->
                 <article class="project-card mech-card">
                     <div class="card-header">
-                        <span>ID: MECH-006</span>
+                        <span>ID: STRUCT-001</span>
                         <span class="project-status">COMPLETED</span>
                     </div>
-                    <div class="project-image mech-img-2">
-                         <div class="placeholder-img" style="background-image: url('data/images/Disc Brake/blueprint_disk.jpg'); background-size: cover;"></div>
+                    <div class="project-image mech-img-1">
+                        <div class="placeholder-img" style="background-image: url('data/images/Crane Lift/blueprint.jpg'); background-size: cover;"></div>
                         <div class="overlay-info">
-                            <span class="tool">CATIA V5</span>
-                            <span class="tool">FEM Simulation</span>
+                            <span class="tool">Autodesk Inventor</span>
+                            <span class="tool">EngiLab</span>
                         </div>
                     </div>
                     <div class="project-content">
-                        <h4>Brake Disc Design & Analysis</h4>
-                        <p>Design, modeling, and finite-element stress analysis of an automotive ventilated brake disc. Includes CAD modeling and mechanical load calculations.</p>
-                        <a href="project-details.php?id=mech-006" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
+                        <h4>Jib Crane Structural Design</h4>
+                        <p>Complete structural design and calculation of a 0.25-ton jib crane. Includes analytical verification, 3D modeling, and safety factor analysis.</p>
+                        <div class="tech-specs">
+                            <ul>
+                                <li><strong>Software:</strong> Autodesk Inventor + EngiLab</li>
+                                <li><strong>Materials/Std:</strong> Structural Steel S235JR</li>
+                                <li><strong>Achievement:</strong> Safety factor: 2.5 verified</li>
+                            </ul>
+                        </div>
+                        <a href="project-details.php?id=mech-001" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
 
-                <!-- Project 7: Chesterfield Armchair -->
+                <!-- Metal Structure -->
                 <article class="project-card mech-card">
                     <div class="card-header">
-                        <span>ID: MECH-007</span>
+                        <span>ID: STRUCT-002</span>
+                        <span class="project-status">COMPLETED</span>
+                    </div>
+                    <div class="project-image mech-img-1">
+                        <div class="placeholder-img" style="background-image: url('data/images/Metal Construction/blueprint.jpg'); background-size: cover;"></div>
+                        <div class="overlay-info">
+                            <span class="tool">Structural Analysis</span>
+                            <span class="tool">Weld Design</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Metal Structure Design</h4>
+                        <p>Structural analysis of a welded steel cantilever support. Verified cross-section resistance and welded joint integrity under load.</p>
+                        <div class="tech-specs">
+                            <ul>
+                                <li><strong>Software:</strong> Analytical Solvers</li>
+                                <li><strong>Materials/Std:</strong> Welded Steel, Eurocode 3</li>
+                                <li><strong>Achievement:</strong> Optimized weld sizing</li>
+                            </ul>
+                        </div>
+                        <a href="project-details.php?id=mech-004" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Chesterfield Armchair -->
+                <article class="project-card mech-card">
+                    <div class="card-header">
+                        <span>ID: STRUCT-003</span>
                         <span class="project-status">COMPLETED</span>
                     </div>
                     <div class="project-image mech-img-1">
@@ -243,21 +325,28 @@
                     <div class="project-content">
                         <h4>Chesterfield Armchair Design</h4>
                         <p>Complete structural and mechanical design of a Chesterfield armchair, including precise manufacturing documentation and 3D modeling.</p>
+                        <div class="tech-specs">
+                            <ul>
+                                <li><strong>Software:</strong> Autodesk Inventor</li>
+                                <li><strong>Materials/Std:</strong> Timber Frame, Foam</li>
+                                <li><strong>Achievement:</strong> Complete manufacturing drawings</li>
+                            </ul>
+                        </div>
                         <a href="project-details.php?id=mech-007" class="btn-link">View Datasheet <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
             </div>
         </div>
 
-        <!-- Software Projects -->
+        <!-- Category 3: Digital Infrastructure -->
         <div class="project-category">
             <div class="category-header">
-                <i class="fas fa-code text-soft"></i>
-                <h3>Software Engineering</h3>
+                <i class="fas fa-network-wired text-soft"></i>
+                <h3>Digital Infrastructure</h3>
             </div>
             <div class="projects-grid">
-                <!-- Project 1: FS Black Hornets -->
-                <article class="project-card soft-card">
+                <!-- FS Black Hornets -->
+                <article class="project-card soft-card highlight-card">
                     <div class="browser-header">
                         <div class="dots"><span></span><span></span><span></span></div>
                         <div class="url-bar">https://www.fsblackhornets.com</div>
@@ -267,38 +356,19 @@
                             <span class="tech">PHP</span>
                             <span class="tech">MySQL</span>
                             <span class="tech">Custom CMS</span>
+                            <span class="tech highlight-tech" style="background:var(--accent-mech);color:#fff;border-color:var(--accent-mech);">Hybrid Role</span>
                         </div>
-                        <h4>FS Black Hornets Website</h4>
+                        <h4>FS Black Hornets Platform</h4>
+                        <p><strong>Hybrid Contribution:</strong> Mechanical Design (Steering & Brakes) + Software Design (Custom CMS/Web Platform).</p>
                         <p>Official web platform for the Formula Student team. Features a custom-built CMS for news management, team rosters, and sponsor integration.</p>
                         <div class="card-actions">
-                            <a href="https://www.fsblackhornets.com/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-001" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
+                            <a href="https://www.fsblackhornets.com/" target="_blank" class="btn-sm btn btn-primary" style="padding: 6px 12px; font-size: 0.85rem;"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                            <a href="project-details.php?id=soft-001" class="btn-sm btn btn-outline" style="padding: 6px 12px; font-size: 0.85rem;"><i class="fas fa-info-circle"></i> Details</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 2: Royal Artisanat -->
-                <article class="project-card soft-card">
-                    <div class="browser-header">
-                        <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://royal-artisanat.store</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="tech-stack">
-                            <span class="tech">PHP</span>
-                            <span class="tech">MySQL</span>
-                            <span class="tech">E-Commerce</span>
-                        </div>
-                        <h4>Royal Artisanat Platform</h4>
-                        <p>Custom e-commerce solution for Tunisian handicrafts. Features a dynamic product catalog, shopping cart system, and admin dashboard.</p>
-                        <div class="card-actions">
-                            <a href="https://royal-artisanat.store/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-002" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 3: Sousse Apartments -->
+                <!-- Sousse Apartments -->
                 <article class="project-card soft-card">
                     <div class="browser-header">
                         <div class="dots"><span></span><span></span><span></span></div>
@@ -313,134 +383,29 @@
                         <h4>Sousse Apartments Platform</h4>
                         <p>Modern real estate booking platform built with Next.js and Prisma. Features real-time availability, admin dashboard, and multi-language support.</p>
                         <div class="card-actions">
-                            <a href="https://sousse-appartments.vercel.app/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-003" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
+                            <a href="https://sousse-appartments.vercel.app/" target="_blank" class="btn-sm btn btn-primary" style="padding: 6px 12px; font-size: 0.85rem;"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                            <a href="project-details.php?id=soft-003" class="btn-sm btn btn-outline" style="padding: 6px 12px; font-size: 0.85rem;"><i class="fas fa-info-circle"></i> Details</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 4: CM Taxi Sousse -->
+                <!-- Royal Artisanat -->
                 <article class="project-card soft-card">
                     <div class="browser-header">
                         <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://taxi-sousse.com</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="tech-stack">
-                            <span class="tech">PHP</span>
-                            <span class="tech">WhatsApp API</span>
-                            <span class="tech">SEO</span>
-                        </div>
-                        <h4>CM Taxi Booking Platform</h4>
-                        <p>High-conversion landing page for a premier taxi service. Features direct WhatsApp booking integration and local SEO optimization.</p>
-                        <div class="card-actions">
-                            <a href="https://taxi-sousse.com/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-004" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 5: Taxi Sousse Professional -->
-                <article class="project-card soft-card">
-                    <div class="browser-header">
-                        <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://taxi-sousse.vercel.app</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="tech-stack">
-                            <span class="tech">Next.js</span>
-                            <span class="tech">Tailwind</span>
-                            <span class="tech">Vercel</span>
-                        </div>
-                        <h4>Taxi Sousse Professional</h4>
-                        <p>Modern, high-performance taxi service platform built with Next.js. Features instant WhatsApp booking and superior mobile experience.</p>
-                        <div class="card-actions">
-                            <a href="https://taxi-sousse.vercel.app/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-005" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 6: Madam In Salon -->
-                <article class="project-card soft-card">
-                    <div class="browser-header">
-                        <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://madamin.rs</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="tech-stack">
-                            <span class="tech">WordPress</span>
-                            <span class="tech">PHP</span>
-                            <span class="tech">Booking</span>
-                        </div>
-                        <h4>Madam In Beauty Salon</h4>
-                        <p>Elegant digital presence for a premier beauty salon in Novi Sad. Features service catalog, team showcase, and online appointment booking.</p>
-                        <div class="card-actions">
-                            <a href="https://madamin.rs/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-006" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 7: Culture.com.tn -->
-                <article class="project-card soft-card">
-                    <div class="browser-header">
-                        <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://culture.com.tn</div>
+                        <div class="url-bar">https://royal-artisanat.store</div>
                     </div>
                     <div class="project-content">
                         <div class="tech-stack">
                             <span class="tech">PHP</span>
                             <span class="tech">MySQL</span>
-                            <span class="tech">CMS</span>
+                            <span class="tech">E-Commerce</span>
                         </div>
-                        <h4>Culture.com.tn Portal</h4>
-                        <p>A digital hub for Tunisian culture and history. Features a custom CMS for articles, event management, and newsletter integration.</p>
+                        <h4>Royal Artisanat Platform</h4>
+                        <p>Custom e-commerce solution for Tunisian handicrafts. Features a dynamic product catalog, shopping cart system, and admin dashboard.</p>
                         <div class="card-actions">
-                            <a href="https://www.culture.com.tn/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-007" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 8: Al Hamde Dayem -->
-                <article class="project-card soft-card">
-                    <div class="browser-header">
-                        <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">https://alhamdedayem.com</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="tech-stack">
-                            <span class="tech">PHP</span>
-                            <span class="tech">Bootstrap</span>
-                            <span class="tech">RTL</span>
-                        </div>
-                        <h4>Al Hamde Dayem Industrial</h4>
-                        <p>Corporate platform for an industrial equipment supplier. Features an RTL design, product catalog, and B2B inquiry system.</p>
-                        <div class="card-actions">
-                            <a href="https://www.alhamdedayem.com/" target="_blank" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Site</a>
-                            <a href="project-details.php?id=soft-008" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 9: Zliten Medical Center -->
-                <article class="project-card soft-card">
-                    <div class="browser-header">
-                        <div class="dots"><span></span><span></span><span></span></div>
-                        <div class="url-bar">localhost:3000</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="tech-stack">
-                            <span class="tech">Node.js</span>
-                            <span class="tech">MongoDB</span>
-                            <span class="tech">Express</span>
-                        </div>
-                        <h4>Zliten Medical Center</h4>
-                        <p>A comprehensive patient management system for surgical departments, featuring operation tracking and medical staff assignments.</p>
-                        <div class="card-actions">
-                            <a href="https://github.com/esamali2200/newesam" target="_blank" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="project-details.php?id=soft-009" class="btn-sm"><i class="fas fa-info-circle"></i> Details</a>
+                            <a href="https://royal-artisanat.store/" target="_blank" class="btn-sm btn btn-primary" style="padding: 6px 12px; font-size: 0.85rem;"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                            <a href="project-details.php?id=soft-002" class="btn-sm btn btn-outline" style="padding: 6px 12px; font-size: 0.85rem;"><i class="fas fa-info-circle"></i> Details</a>
                         </div>
                     </div>
                 </article>
@@ -448,6 +413,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- Skills Section -->
 <section id="skills" class="section skills-section">

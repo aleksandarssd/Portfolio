@@ -8,7 +8,7 @@
                         <span class="logo-symbol">SM</span>
                         <span class="logo-text">SKANDAR MOKNI</span>
                     </div>
-                    <p>Bridging the gap between Mechanical Engineering and Software Development.</p>
+                    <p class="footer-tagline">Optimizing physical systems through digital logic.</p>
                 </div>
                 <div class="footer-links">
                     <a href="https://github.com/aleksandarssd" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> Skandar Mokni. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Skandar Mokni // SYSTEM.ONLINE</p>
             </div>
         </div>
     </footer>

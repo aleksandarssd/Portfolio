@@ -38,10 +38,42 @@ if (!$project) {
 
             <div class="spec-grid">
                 <div class="main-info">
+                    <?php if (isset($project['is_rd']) && $project['is_rd']): ?>
+                        <div class="rd-header" style="margin-bottom: 20px; padding: 15px; background: rgba(59, 130, 246, 0.05); border-left: 3px solid var(--accent-soft);">
+                            <h4 style="margin-bottom: 5px; color: var(--accent-soft);">Role: <?php echo $project['role']; ?></h4>
+                            <p style="font-style: italic; color: var(--text-secondary); margin: 0;"><?php echo $project['subheadline']; ?></p>
+                        </div>
+                    <?php endif; ?>
+
                     <h3>Project Overview</h3>
                     <div class="project-description">
                         <?php echo $project['description']; ?>
                     </div>
+
+                    <?php if (isset($project['methodologies'])): ?>
+                    <h3 style="margin-top: 30px; color: var(--accent-mech);">R&D Methodology & Process</h3>
+                    <ul class="task-list rd-list">
+                        <?php foreach ($project['methodologies'] as $method): ?>
+                            <li><?php echo $method; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                    <?php endif; ?>
+
+                    <?php if (isset($project['innovations'])): ?>
+                    <h3 style="margin-top: 30px; color: var(--accent-mech);">Mechanical Innovation & Validation</h3>
+                    <ul class="task-list rd-list">
+                        <?php foreach ($project['innovations'] as $innovation): ?>
+                            <li><?php echo $innovation; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                    <?php endif; ?>
+
+                    <?php if (isset($project['lessons_learned'])): ?>
+                    <div class="lessons-learned" style="margin-top: 30px; padding: 20px; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px;">
+                        <h3 style="margin-bottom: 10px; color: var(--text-primary);"><i class="fas fa-lightbulb" style="color: var(--accent-mech);"></i> Lessons Learned & Next Steps</h3>
+                        <p style="color: var(--text-secondary); margin: 0; line-height: 1.6;"><?php echo $project['lessons_learned']; ?></p>
+                    </div>
+                    <?php endif; ?>
                     
                     <?php if (isset($project['link'])): ?>
                     <div style="margin-bottom: 30px;">
@@ -133,7 +165,7 @@ if (!$project) {
                 </div>
 
                 <div class="specs-sidebar">
-                    <h3>Specifications</h3>
+                    <h3><?php echo (isset($project['is_rd']) && $project['is_rd']) ? 'Technical Validation Data' : 'Specifications'; ?></h3>
                     <table class="specs-table">
                         <?php foreach ($project['specs'] as $key => $value): ?>
                         <tr>
