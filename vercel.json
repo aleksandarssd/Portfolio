@@ -1,11 +1,14 @@
 {
   "functions": {
-    "api/**/*.php": { "runtime": "vercel-php@0.7.2" }
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.7.2",
+      "includeFiles": "{index.php,project-details.php,includes/**/*.php,data/projects.php}"
+    }
   },
   "routes": [
     { "src": "/(?:index\\.php)?", "dest": "/api/index.php" },
     { "src": "/project-details(?:\\.php)?", "dest": "/api/project-details.php" },
     { "src": "/api/contact", "dest": "/api/contact.php" },
-    { "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|webp|pdf|glb|ico|woff|woff2|ttf))", "dest": "/$1" }
+    { "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|webp|pdf|glb|ico|woff|woff2|ttf|dwg))", "dest": "/$1" }
   ]
 }
